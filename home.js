@@ -36,3 +36,8 @@ function scrollHandler() {
 
 window.addEventListener('scroll', scrollHandler);
 })
+
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
